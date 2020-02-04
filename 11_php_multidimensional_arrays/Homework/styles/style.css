@@ -1,0 +1,199 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+}
+#container{
+	background: #F6F2F2;	
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+#header{
+	width: 90%;
+	height: 80px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	background: black;	
+	overflow: auto;
+}
+#header h1{
+	font-size: 22px;
+	color: white;
+	font-style: italic;
+	margin-left: 40px;
+	margin-top: 2%;
+}
+#sidebar_left{
+	width: 15%;
+	height: 80%;
+	margin-left: 5%;
+	background: #101010;
+	float: left;
+}
+#sidebar_left h2{
+	color: #FFFFFF;
+	margin-left: 20%;
+}
+.sidebar_content{
+	color: #FFFFFF;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#sidebar_left a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#sidebar_left a:hover{
+	color:#175F25;
+}
+#content{
+	float: left;
+	width: 75%;
+	height: 80%;
+	margin-left: 0px;
+	background: #ECEAEA;
+	position: relative;
+}
+#task_current{
+	position: absolute;
+	z-index: 1;
+	background-color: #D2CDCD;
+	height: 90%;
+	width: 85%;
+	top: 2%;
+	left: 2%; 
+}
+#task_current_two{
+	position: absolute;
+	z-index: 2;
+	background-color: #D2CDCD;
+	height: 90%;
+	width: 85%;
+	top: 2%;
+	left: 2%; 
+}
+#task_current h2{
+	margin-left: 50px;
+	font-style: italic;
+}
+#task_current_two h2{
+	margin-left: 50px;
+	font-style: italic;
+}
+#student_name_centered{
+	margin-left: 40%;
+}
+#add_student_info_main{
+	float:left;
+	height: 100%;
+	width: 40%;
+}
+#add_student_info{
+	float:left;
+	overflow-y: scroll;
+	height: 100%;
+	width: 40%;
+}
+#add_student_info_submit{
+	margin-bottom: 10px;
+}
+#display_student_info{
+	float:left;
+	width: 60%;
+}
+.margin_left{
+	margin-left: 10px;
+}
+.margin_bottom_10{
+	margin-bottom: 10px;
+}
+.margin_bottom_2{
+	margin-bottom: 2px;
+}
+.width_50{
+	width: 50px;
+}
+.class_lessons{
+	display: inline-block;
+	width: 120px;
+}
+#student_name{
+	width: 200px;
+}
+#task_next{
+	position: absolute;
+	z-index: 0;
+	background-color: #C8C4C4;
+	height: 90%;
+	width: 85%;
+	bottom: 2%;
+	right: 2%; 
+}
+#task_next_two{
+	position: absolute;
+	z-index: 2;
+	background-color: #C8C4C4;
+	height: 90%;
+	width: 85%;
+	bottom: 2%;
+	right: 2%; 
+}
+#footer{
+	float: left;
+	width: 90%;
+	height: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	background: black;
+}
+#students_table{
+	border-collapse: collapse;
+	margin-left: 4%;	
+	margin-top: 2%;
+	width: 90%;
+	font-size: 12px;
+}
+#students_table td, th {
+	border: 1px solid #000;
+	padding: 2px;
+	text-align: center;
+}
+#task_next_two_header{
+	width: 95%;
+	margin-right: 60px;
+	text-align: right;
+}
+#task_next_two_header{
+	width: 95%;
+	margin-right: 60px;
+	text-align: right;
+}
+#submit_button{
+	float: left;
+	margin-left: 30%;
+}
+#task_next_two_header h3{
+	margin-bottom: 0px;
+}
+#task_next_two_header h5{
+	margin-top: 0px;
+}
+.table_position{
+	width: 45%;
+	height: 40%;
+	float: left;
+	margin-left: 30px;
+	overflow: auto;
+}
+.table_one{
+	width: 40px;
+}
+.inner_table{
+	margin-top: 10px;
+}

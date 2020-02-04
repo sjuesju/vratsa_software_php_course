@@ -1,0 +1,22 @@
+body{
+	margin: 0px;
+	margin-left:5px;
+	padding: 0px;
+}
+
+div{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+span{
+	padding-right: 10px;
+}
+
+input[type="text"] {
+	width: 30px;	
+}
+
+fieldset{
+	width: 300px;
+}

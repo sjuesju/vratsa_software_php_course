@@ -1,0 +1,125 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #F8F8FA;
+}
+#container{
+	background: #F8F8FA;
+	width: 100%;
+	height: 100%;
+}
+#header{
+	margin-left: 30px;
+	width: 40%;
+}
+h1 {
+	margin-bottom: 0px;
+}
+h4{
+	margin: 0px;
+}
+#home{
+	float: left;
+	margin-top: 5px;
+	margin-left: 45%;
+} 
+#home a{
+	text-decoration: none;
+	color: #000000;
+}
+#home h3{
+	margin: 0px;
+}
+#header_bottom_dot{
+	width: 50%;
+	height: 1px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background: #000000;
+}
+#links{
+	font-size: 17px;
+}
+#links a{
+	text-decoration: none;
+	color: #000000;
+}
+#cv_task_container{
+	height: 380px;
+	padding: 0px;
+}
+#cv_task_container h3{
+	margin-top: 0px;
+	margin-bottom: 10px; 
+}
+#footer{
+	width: 30%;
+	height: 1px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background: #000000;
+}
+#task_field{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#task_field_cv{
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 450px;
+	height: 400px;
+	float: left;
+}
+.add_cv_data{
+	width: 280px;
+	margin-right: 10px;
+}
+#text_fieldset{
+	width: 250px;
+}
+.text_fieldset_cv{
+	width: 400px;
+	margin-bottom: 20px;
+}
+#task_answer{
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+#task_answer_cv{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	font-size: 17px;
+	width: 600px;
+	height: 350px;
+}
+#task_answer_cv table{
+	min-width: 400px;
+	text-align:center;
+}
+#task_answer_cv th{
+	font-size: 22px;
+}
+#task_answer_cv .td_heading{
+	text-align: left;
+	width: 60px;
+}
+#task_answer_cv .td_info{
+	text-align: left;	
+}
+#submit{
+	margin-top: 20px;
+}
+.cv_fields{
+	margin-top: 5px;
+}
+.text_field_name{
+	display: inline-block;
+	width: 100px;
+}

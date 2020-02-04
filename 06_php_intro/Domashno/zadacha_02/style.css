@@ -1,0 +1,12 @@
+table{
+	width: 500px;
+	border: 1px solid;
+}
+
+th{
+	background: #70c471;
+}
+
+.answer{
+	color: #e30505;
+}
